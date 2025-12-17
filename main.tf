@@ -184,6 +184,6 @@ resource "aws_nat_gateway" "ngw" {
   subnet_id     = aws_subnet.pub_subnet.id   # NAT must be in PUBLIC subnet
 
   tags = {
-    Name = "test-tag-nat-gateway"
+    Name = "nat-gateway"
   }
 }
